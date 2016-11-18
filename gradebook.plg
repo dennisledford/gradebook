@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gradebook - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP5214.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/gradebook.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\WINDOWS\Desktop\gradebook\add.cpp"
+"C:\WINDOWS\Desktop\gradebook\assign.cpp"
+"C:\WINDOWS\Desktop\gradebook\change.cpp"
+"C:\WINDOWS\Desktop\gradebook\file_list.cpp"
+"C:\WINDOWS\Desktop\gradebook\final.cpp"
+"C:\WINDOWS\Desktop\gradebook\get.cpp"
+"C:\WINDOWS\Desktop\gradebook\list_file.cpp"
+"C:\WINDOWS\Desktop\gradebook\main.cpp"
+"C:\WINDOWS\Desktop\gradebook\new.cpp"
+"C:\WINDOWS\Desktop\gradebook\out.cpp"
+"C:\WINDOWS\Desktop\gradebook\test.cpp"
+"C:\WINDOWS\Desktop\gradebook\total.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5214.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5215.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/gradebook.pdb" /debug /machine:I386 /out:"Debug/gradebook.exe" /pdbtype:sept 
+.\Debug\add.obj
+.\Debug\assign.obj
+.\Debug\change.obj
+.\Debug\file_list.obj
+.\Debug\final.obj
+.\Debug\get.obj
+.\Debug\list_file.obj
+.\Debug\main.obj
+.\Debug\new.obj
+.\Debug\out.obj
+.\Debug\test.obj
+.\Debug\total.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP5215.TMP"
+<h3>Output Window</h3>
+Compiling...
+add.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+assign.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+change.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+file_list.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+final.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+get.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+list_file.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+main.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+new.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+out.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+test.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+total.cpp
+c:\windows\desktop\gradebook\header.h(6) : fatal error C1083: Cannot open include file: 'ItemType.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+gradebook.exe - 12 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
